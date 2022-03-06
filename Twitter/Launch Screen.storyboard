@@ -16,22 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Tn9-Zn-YRO">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Tn9-Zn-YRO">
+                                <rect key="frame" x="87.5" y="223.5" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Tn9-Zn-YRO" secondAttribute="height" multiplier="1:1" id="dGH-0H-6Vy"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVZ-YV-YzY">
-                                <rect key="frame" x="141" y="233" width="92" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsy-IF-fYC">
+                                <rect key="frame" x="135" y="202" width="104" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wsy-IF-fYC" secondAttribute="height" multiplier="104:43" id="jg6-vN-PPj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tn9-Zn-YRO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DY1-4e-chC"/>
+                            <constraint firstItem="Wsy-IF-fYC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="Yor-Hz-35X"/>
+                            <constraint firstItem="Tn9-Zn-YRO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aKm-S8-XYT"/>
+                            <constraint firstItem="Wsy-IF-fYC" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="202" id="f6j-Yu-7Hv"/>
+                            <constraint firstItem="Wsy-IF-fYC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gct-VA-Oti"/>
+                            <constraint firstItem="Wsy-IF-fYC" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="135" id="pGN-LJ-HFR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
