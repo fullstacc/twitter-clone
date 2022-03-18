@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  Twitter
+//
+//  Created by BRIAN BETANCOURT on 3/18/22.
+//  Copyright © 2022 Dan. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+CONSUMER_KEY = 5lUJuO5AUpPUCez4ewYDFrtgh
+CONSUMER_SECRET = s5ynGqXzstUZwFPxVyMDkYh197qvHOcVM3kwv1o2TKhS1avCdS
+
